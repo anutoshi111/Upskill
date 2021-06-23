@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+            /* shorthand for border attriutes */
+
+            border-collapse: collapse;
+            /* for displaying border in a single line */
+            /* border-spacing: 25px; */
+        }
+
+        th, td {
+            padding: 15px;
+            /* shorthand for taking cell padding from all sides */
+
+            /* text-align: left; */
+            
+        }
+    </style>
+</head>
+<body>
+    
+<table>
+    <caption>Record of Students</caption>
+    <thead>
+        <tr>
+            <!-- <th colspan="3">Name</th> -->
+            <th >Name</th>
+            <th>Title</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Aman</td>
+            <td>Chopra</td>
+            <td>Jharkhand</td          >
+        </tr>
+        <tr>
+            <td>Aman</td>
+            <td>Chopra</td>
+            <td>Jharkhand</td>
+        </tr>
+        <tr>
+            <td>Aman</td>
+            <td>Chopra</td>
+            <td>Jharkhand</td>
+        </tr>
+        <tr>
+            <td>Aman</td>
+            <td>Chopra</td>
+            <td>Jharkhand</td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<br />
+<br />
+<table>
+    <tr>
+        <th>Name</th>
+        <td>Aman Chopra</th>
+    </tr>
+    <tr>
+        <th rowspan="2">College</th>
+        <td>UEM Kolkata</td>
+    </tr>
+    <tr>
+        <td>2023 Graduate</td>
+    </tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+            /* shorthand for border attriutes */
+
+            border-collapse: collapse;
+            /* for displaying border in a single line */
+            /* border-spacing: 25px; */
+        }
+
+        th, td {
+            padding: 15px;
+            /* shorthand for taking cell padding from all sides */
+
+            /* text-align: left; */
+            
+        }
+    </style>
+</head>
+<body>
+    
+<table>
+    <caption>
+        <h1>WEEKLY SCHEDULE</h1>
+    </caption>
+    <thead>
+        <tr>
+            <!-- <th colspan="3">Name</th> -->
+            <th>No.</th>
+            <th >Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td><B>1.</B></td>
+            <td>Cell Biology</td>
+            <td>Environmental Science</td>
+            <td>Biochemistry</td>
+            <td>Advanced Chemistry</td>
+            <td>Cell Biology</td>
+            
+        </tr>
+        <tr>
+            <td><B>2.</B></td>
+            <td>Advanced chemistry</td>
+            <td>Cell Biology</td>
+            <td>Environmental Science</td>
+            <td>Cell Biology</td>
+            <td>Biochemistry</td>
+        </tr>
+        <tr>
+            <td><B>3. </B></td>
+            <td>Advanced Chemistry Practical</td>
+            <td>Biochemistry Practical</td>
+            <td>Environmental Science Practical</td>
+            <td>Cell Biology Practical</td>
+            <td>Biotech Business Studies</td>
+        </tr>
+        
+    </tbody>
+</table>
+<br />
+<br />
+<br />
+<table>
+    
+
+</body>
+</html>

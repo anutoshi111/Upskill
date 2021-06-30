@@ -1,0 +1,23 @@
+## Make a repository in your GitHub and name it as Portfolio or Business Landing Page
+
+## Push your whole code to that repo
+
+## Make that project Live
+
+## In the description section mention the things that you have done in your project
+
+## Below that paste your hosted link too.
+
+## Now come to my github account of that Upskill Repo
+
+## Fork it if you havent done it
+
+## If you have already forked then in your account click on that fetch button and then pull all the codes in your local system
+
+## Get into that specific folder of which you want to submit the project
+
+## Make a folder of your name
+
+## Push your whole code inside that folder
+
+## Create a text file and inside that paste the links of your Github Repo and Live Link of your project

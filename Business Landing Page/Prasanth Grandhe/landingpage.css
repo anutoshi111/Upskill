@@ -1,0 +1,182 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+nav{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
+.logo{
+    font-family: 'Cedarville Cursive', cursive;
+    display: inline-block;
+    padding-left: 50px;
+}
+.lists{
+    display: inline-block;
+}
+nav ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+}
+nav li{
+    display: inline;
+    padding: 50px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: red;
+    font-weight: 6000;
+    font-size: 20px;
+}
+nav li a::after{
+    border-bottom: 1px;
+}
+nav li a:hover{
+    font-size: 30px;
+    color: red;
+}
+#Home{
+    background-image: url(./assets/homepage.jpg);
+    background-size: 100% 620px;
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 100%;
+}
+.p1{
+    position: absolute;
+    top: 430px;
+    font-size: 30px;
+    left: 100px;
+    font-weight: 600;
+    color: blueviolet;
+}
+.p2{
+    position: absolute;
+    top: 460px;
+    font-size: 30px;
+    left: 100px;
+    font-weight: 600;
+    color: blueviolet;
+}
+.p3{
+    position: absolute;
+    top: 200px;
+    font-weight: 1000;
+    font-size: 40px;
+    left: 500px;
+    color: rgb(223, 130, 9);
+}
+.p4{
+    position: absolute;
+    top: 230px;
+    font-weight: 1000;
+    font-size: 40px;
+    left: 750px;
+    color: rgb(223, 130, 9);
+}
+#Thingsoffered{
+    background-image: url(./assets/thingsoffered.jpg);
+    background-size: 100% 620px;
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 100%;
+}
+.menu{
+    width: 200px;
+    height: 500px;
+}
+.m1{
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+    font-size: 40px;
+    font-weight: 10000;
+    color: rgb(247, 14, 53);
+}
+.menu ul{
+    position: absolute;
+    top: 800px;
+    left: 940px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.menu li{
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(247, 14, 53);
+}
+#Acceptedpayments {
+    background-image: url(./assets/payments.jpg);
+    background-size: 100% 620px;
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 100%;
+}
+.a1{
+    position: absolute;
+    top: 1350px;
+    left: 50px;
+    background-color: white;
+}
+figcaption{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+figure{
+    text-align: center;
+}
+.cash{
+    position: absolute;
+    top: 1450px;
+    left: 30px;
+    background-color: white;
+    height: 300px;
+}
+.card{
+    position: absolute;
+    top: 1450px;
+    left: 460px;
+    background-color: white;
+    height: 300px;
+}
+.upi{
+    position: absolute;
+    top: 1450px;
+    left: 900px;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+}
+.l1{
+    font-size: 60px;
+    color: coral;
+    text-align: center;
+}
+#Contactus {
+    background-color: blue;
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 100%;
+}
+.cu h1{
+    position: absolute;
+    top: 2500px;
+    left: 150px;
+    color: rgb(139, 230, 20);
+    font-size: 40px;
+}
+.pra{
+    position:absolute;
+    top: 2600px;
+    left: 150px;
+    color: rgb(224, 163, 32);
+    font-size: 30px;
+}
